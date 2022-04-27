@@ -223,11 +223,14 @@ body {
     padding: 20px 10px;
     text-decoration: none;
 }
-.social-medias a:hover .fa {
+.logo-socialmedia {
+    width: 14px;
+    padding: 10px;
+}
+.social-medias a:hover img {
     transform: rotate(7deg);
     transition: .5s;
 }
-
 .copyright {
     text-align: center;
     margin-top: 30px;
@@ -251,6 +254,9 @@ body {
 .section.is-right .section-content {
     text-align: right;
     margin-left: 30%;
+}
+.bath-and-groom-color {
+    color:#ff0077
 }
 .section.is-pink {
     color: #fff;
